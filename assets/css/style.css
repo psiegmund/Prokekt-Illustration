@@ -75,14 +75,11 @@ HEADER STYLE
 
 /* classes also used in <main> */
 
-.mainSection {
-    margin: 10vh 0 0 0;
-}
-
 .text {
     display: inline-block;
-    width: 40%;
+    width: 30%;
     margin: 20vh 0 0 10vw;
+    padding: 10vh 0 0 0;
     vertical-align: top;
 }
 
@@ -92,8 +89,8 @@ HEADER STYLE
 }
 
 .image {
-    width: 20%;
-    margin: 0 0 0 20vw;
+    width: 35%;
+    margin: 0 0 0 10vw;
     display: inline-block;
 }
 
@@ -174,8 +171,12 @@ MAIN STYLE
 }
 
 .imageExample img {
-    width: 30%;
-    margin: 5vh 3% 3% 3%;
+    width: 40%;
+    margin: 5vh 2% 3% 2%;
+}
+
+.imageExample img:hover {
+    box-shadow: 0 0 10px gray;
 }
 
 /* ------- Styling Membership-form */
@@ -261,6 +262,10 @@ footer a {
 }
 
 /* Coloration of Social-dots */
+
+footer span {
+    font-size: 4rem;
+}
 
 #fb {
     color: #3b5998;
